@@ -1,0 +1,49 @@
+.item-size,
+.scroll-view-item,
+.scroll-view-item_H {
+	height: 70px;
+	width: 100px;
+}
+
+.red,
+.bc_red {
+	background-color: red;
+}
+
+.yellow,
+.bc_yellow {
+	background-color: yellow;
+}
+
+.blue,
+.bc_blue {
+	background-color: blue;
+}
+
+.SlateGray,
+.bc_SlateGray {
+	background-color: SlateGray;
+}
+
+.GoldEnrod,
+.bc_GoldEnrod {
+	background-color: GoldEnrod;
+}
+
+.green,
+.bc_green {
+	background-color: green;
+}
+
+.scroll_view_H {
+	white-space: nowrap;
+}
+
+.scroll_view_V {
+	display: flex;
+	flex-direction: column;
+}
+
+.scroll-view-item_H {
+	display: inline-block;
+}

@@ -1,0 +1,29 @@
+<view class="section">
+	<view class="section__title">vertical scroll</view>
+	<scroll-view scroll-y class="scroll_view_V" style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+		<view class="scroll-view-item bc_green"></view>
+		<view class="scroll-view-item bc_red"></view>
+		<view class="scroll-view-item bc_yellow"></view>
+		<view class="scroll-view-item bc_blue"></view>
+		<view class="scroll-view-item bc_SlateGray"></view>
+		<view class="scroll-view-item bc_GoldEnrod"></view>
+	</scroll-view>
+
+  <navigator url="/pages/lin/lin" hover-class="navigator-hover">跳转到lin</navigator>
+
+	<view class="btn-area">
+		<button size="mini" bindtap="tap">click me to scroll into view </button>
+		<button size="mini" bindtap="tapMove">click me to scroll</button>
+	</view>
+</view>
+<view class="section section_gap">
+	<view class="section__title">horizontal scroll</view>
+	<scroll-view class="scroll_view_H" scroll-x style="width: 100%">
+		<view class="scroll-view-item_H bc_green"></view>
+		<view class="scroll-view-item_H bc_red"></view>
+		<view class="scroll-view-item_H bc_yellow"></view>
+		<view class="scroll-view-item_H bc_blue"></view>
+		<view class="scroll-view-item_H bc_SlateGray"></view>
+		<view class="scroll-view-item_H bc_GoldEnrod"></view>
+	</scroll-view>
+</view>
