@@ -14,7 +14,7 @@ Page({
 			success: function(res) {
 				that.width = res.windowWidth
 				// console.log(that.width)   375
-				that.height = res.windowHeight
+				that.height = res.windowWidth
 				// console.log(that.height)  625
 				// 这里的单位是PX，实际的手机屏幕有一个Dpr，这里选择iphone，默认Dpr是2
 			}
