@@ -1,9 +1,9 @@
 {
 	"pages": [
+		"pages/logs/logs",
 		"pages/fallCell/fallCell",
 		"pages/index/index",
-    "pages/lin/lin",
-    "pages/logs/logs"
+		"pages/lin/lin"
 	],
 	"window": {
 		"backgroundTextStyle": "light",
